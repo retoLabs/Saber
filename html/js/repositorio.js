@@ -14,7 +14,7 @@ window.hortaList = hortaList;
 window.frutaList = frutaList;
 window.arvenseList = arvenseList;
 window.setWeb4info = src.setWeb4info;
-window.showInfoEspecie = src.showInfoEspecie;
+window.showInfoNodo = src.showInfoNodo;
 
 async function loadPlantas() {
   const response = await fetch('./json/misPlantas.json');

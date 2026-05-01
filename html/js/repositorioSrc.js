@@ -75,8 +75,8 @@ function setWeb4info(web){
 	}
 }
 //------------------------------------------------------------------- Arbol
-function showInfoEspecie(gen,esp){
-		var nombre = gen+'_'+esp;
+function showInfoNodo(tag){
+		var nombre = tag;
 		console.log(nombre+':'+vgApp.web);
 		switch (vgApp.web){
 			case 'WIKI_ES':
@@ -279,26 +279,13 @@ function initAppRepo(){
 				if (items.length) this.idAct = items[0].id0;
 			},
 			showInfo : function(item){
-				if (vgApp.tabla == 'HORTA'){ 
-					this.activ = item;
-					this.foto = 'img/horta/Viv1-H/'+item.img;
-					showInfoEspecie(item.genero,item.especie);
-				}
-				else if (vgApp.tabla == 'FRUTA'){
-					this.activ = item;
-					this.foto = 'img/fruta/Viv1-F/'+item.img;
-					showInfoEspecie(item.genero,item.especie);
-				}
-				else{ 
-					this.activ = null;
-					showInfoEspecie(item.genero,item.especie);
-				}
+					showInfoNodo(item.tag);
 			}
 		}
 	})
 }
 
-export default {initAppRepo,setWeb4info,getEspeciesList,showInfoEspecie}
+export default {initAppRepo,setWeb4info,getEspeciesList,showInfoNodo}
 
 
 
