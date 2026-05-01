@@ -1,0 +1,16 @@
+insert into nodos (ctg,tag) values ('LOGIA','Zoología');
+insert into nodos (ctg,tag) values ('LOGIA','Botánica');
+insert into nodos (ctg,tag) values ('LOGIA','Micologia');
+insert into nodos (ctg,tag) values ('LOGIA','Microbiología');
+insert into nodos (ctg,tag) values ('LOGIA','Genética');
+insert into nodos (ctg,tag) values ('LOGIA','Ecología');
+insert into nodos (ctg,tag) values ('LOGIA','Biología Celular');
+insert into nodos (ctg,tag) values ('LOGIA','Biología Molecular');
+insert into nodos (ctg,tag) values ('LOGIA','Bioquímica');
+insert into nodos (ctg,tag) values ('LOGIA','Anatomía');
+insert into nodos (ctg,tag) values ('LOGIA','Fisiología');
+insert into nodos (ctg,tag) values ('LOGIA','Biología Evolutiva');
+insert into nodos (ctg,tag) values ('LOGIA','Biología Marina');
+insert into nodos (ctg,tag) values ('LOGIA','Biotecnología');
+insert into nodos (ctg,tag) values ('LOGIA','Paleontología');
+insert into nodos (ctg,tag) values ('LOGIA','Parasitología');

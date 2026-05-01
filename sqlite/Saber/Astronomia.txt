@@ -1,0 +1,8 @@
+insert into nodos (ctg,tag) values ('LOGIA','Astrofísica');
+insert into nodos (ctg,tag) values ('LOGIA','Astrometría');
+insert into nodos (ctg,tag) values ('LOGIA','Mecánica Celeste');
+insert into nodos (ctg,tag) values ('LOGIA','Cosmología');
+insert into nodos (ctg,tag) values ('LOGIA','Planetología');
+insert into nodos (ctg,tag) values ('LOGIA','Astrobiología');
+insert into nodos (ctg,tag) values ('LOGIA','Astroquímica');
+insert into nodos (ctg,tag) values ('LOGIA','Radioastronomía');
