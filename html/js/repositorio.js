@@ -1,34 +1,15 @@
 
 import {vgApp,goPag}    from '/saber/js/saber_VGlob.js'
 
-import {floraList,faunaList,hortaList,frutaList,arvenseList} from '/saber/js/repositorioSrc.js'
 import src from '/saber/js/repositorioSrc.js'
 import sess   from '../k1/libK3_Sesion.js'
 
 window.vgApp = vgApp; // import para Ajax
-window.goPag = goPag;
+window.addNodo = src.addNodo;
 
-window.floraList = floraList; // import para link menu
-window.faunaList = faunaList;
-window.hortaList = hortaList;
-window.frutaList = frutaList;
-window.arvenseList = arvenseList;
-window.setWeb4info = src.setWeb4info;
-window.showInfoNodo = src.showInfoNodo;
-
-async function loadPlantas() {
-  const response = await fetch('./json/misPlantas.json');
-  const plantas = await response.json();
-  plantas.lista.map(function(planta){
-  	console.log(planta.nom);
-  })
-//  console.log(plantas); 
-}
 function sesionRepositorioOK(){
-//	loadPlantas();
 	src.initAppRepo();
-	src.setWeb4info('WIKI_ES');
-	src.getEspeciesList('FLORA');
+	src.getTiposList();
 }
 
 function initRepositorio(){
